@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PayPwdInputView">
+
+        <attr name="maxCount" format="integer"/>
+        <attr name="pwd_circleColor" format="color"/>
+        <attr name="bottomLineColor" format="color"/>
+        <attr name="radius" format="dimension"/>
+        <attr name="divideLineWidth" format="dimension"/>
+        <attr name="divideLineColor" format="color"/>
+        <attr name="rectAngle" format="dimension"/>
+        <attr name="focusedColor" format="color"/>
+        <attr name="pwdType" format="enum">
+            <enum name="weChat" value="0"/>
+            <enum name="bottomLine" value="1"/>
+        </attr>
+        <attr name="isPlaintext" format="boolean"/>
+        <attr name="pwdTextColor" format="color"/>
+        <attr name="pwdTextSize" format="dimension"/>
+    </declare-styleable>
+</resources>
